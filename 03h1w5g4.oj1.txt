@@ -1,0 +1,410 @@
+﻿"Initial environment"
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# Changes to be committed:
+#   (use "git reset HEAD <file>..." to unstage)
+#
+#	new file:   anvil/Assembly-CSharp-Editor-vs.csproj
+#	new file:   anvil/Assembly-CSharp-Editor.csproj
+#	new file:   anvil/Assembly-CSharp-firstpass-vs.csproj
+#	new file:   anvil/Assembly-CSharp-firstpass.csproj
+#	new file:   anvil/Assembly-CSharp-firstpass.pidb
+#	new file:   anvil/Assembly-UnityScript-firstpass-vs.unityproj
+#	new file:   anvil/Assembly-UnityScript-firstpass.pidb
+#	new file:   anvil/Assembly-UnityScript-firstpass.unityproj
+#	new file:   anvil/Assets/Editor/Water (Pro Only)/Water4/GerstnerDisplaceEditor.cs
+#	new file:   anvil/Assets/Editor/Water (Pro Only)/Water4/PlanarReflectionEditor.cs
+#	new file:   anvil/Assets/Editor/Water (Pro Only)/Water4/SpecularLightingEditor.cs
+#	new file:   anvil/Assets/Editor/Water (Pro Only)/Water4/WaterBaseEditor.cs
+#	new file:   anvil/Assets/Editor/Water (Pro Only)/Water4/WaterEditorUtility.cs
+#	new file:   anvil/Assets/Materials/Skybox.mat
+#	new file:   anvil/Assets/Materials/Water.mat
+#	new file:   anvil/Assets/Materials/bustedJankMat.mat
+#	new file:   anvil/Assets/Materials/crustyDockMat.mat
+#	new file:   anvil/Assets/Materials/highPolyGroundMat.mat
+#	new file:   anvil/Assets/Materials/lowPolyGroundMat.mat
+#	new file:   anvil/Assets/Materials/metalMat.mat
+#	new file:   anvil/Assets/Materials/waterTowerMat.mat
+#	new file:   anvil/Assets/Materials/wood1Mat.mat
+#	new file:   anvil/Assets/Materials/wood2Mat.mat
+#	new file:   anvil/Assets/Materials/wood3Mat.mat
+#	new file:   anvil/Assets/Materials/wood4Mat.mat
+#	new file:   anvil/Assets/Models/environment.obj
+#	new file:   anvil/Assets/Standard Assets/Character Controllers/3rd Person Controller.prefab
+#	new file:   anvil/Assets/Standard Assets/Character Controllers/First Person Controller.prefab
+#	new file:   anvil/Assets/Standard Assets/Character Controllers/Sources/PrototypeCharacter/Constructor.FBX
+#	new file:   anvil/Assets/Standard Assets/Character Controllers/Sources/PrototypeCharacter/Materials/constructor_done.mat
+#	new file:   anvil/Assets/Standard Assets/Character Controllers/Sources/PrototypeCharacter/Textures/constructor_diffuse.png
+#	new file:   anvil/Assets/Standard Assets/Character Controllers/Sources/PrototypeCharacter/Textures/constructor_normals.png
+#	new file:   anvil/Assets/Standard Assets/Character Controllers/Sources/Scripts/CharacterMotor.js
+#	new file:   anvil/Assets/Standard Assets/Character Controllers/Sources/Scripts/FPSInputController.js
+#	new file:   anvil/Assets/Standard Assets/Character Controllers/Sources/Scripts/MouseLook.cs
+#	new file:   anvil/Assets/Standard Assets/Character Controllers/Sources/Scripts/PlatformInputController.js
+#	new file:   anvil/Assets/Standard Assets/Character Controllers/Sources/Scripts/ThirdPersonCamera.js
+#	new file:   anvil/Assets/Standard Assets/Character Controllers/Sources/Scripts/ThirdPersonController.js
+#	new file:   anvil/Assets/Standard Assets/Skyboxes/DawnDusk Skybox.mat
+#	new file:   anvil/Assets/Standard Assets/Skyboxes/Eerie Skybox.mat
+#	new file:   anvil/Assets/Standard Assets/Skyboxes/MoonShine Skybox.mat
+#	new file:   anvil/Assets/Standard Assets/Skyboxes/Overcast1 Skybox.mat
+#	new file:   anvil/Assets/Standard Assets/Skyboxes/Overcast2 Skybox.mat
+#	new file:   anvil/Assets/Standard Assets/Skyboxes/StarryNight Skybox.mat
+#	new file:   anvil/Assets/Standard Assets/Skyboxes/Sunny1 Skybox.mat
+#	new file:   anvil/Assets/Standard Assets/Skyboxes/Sunny2 Skybox.mat
+#	new file:   anvil/Assets/Standard Assets/Skyboxes/Sunny3 Skybox.mat
+#	new file:   anvil/Assets/Standard Assets/Skyboxes/Textures/DawnDusk/DawnDusk_back.tif
+#	new file:   anvil/Assets/Standard Assets/Skyboxes/Textures/DawnDusk/DawnDusk_down.tif
+#	new file:   anvil/Assets/Standard Assets/Skyboxes/Textures/DawnDusk/DawnDusk_front.tif
+#	new file:   anvil/Assets/Standard Assets/Skyboxes/Textures/DawnDusk/DawnDusk_left.tif
+#	new file:   anvil/Assets/Standard Assets/Skyboxes/Textures/DawnDusk/DawnDusk_right.tif
+#	new file:   anvil/Assets/Standard Assets/Skyboxes/Textures/DawnDusk/DawnDusk_up.tif
+#	new file:   anvil/Assets/Standard Assets/Skyboxes/Textures/Eerie/Eerie_back.tif
+#	new file:   anvil/Assets/Standard Assets/Skyboxes/Textures/Eerie/Eerie_down.tif
+#	new file:   anvil/Assets/Standard Assets/Skyboxes/Textures/Eerie/Eerie_front.tif
+#	new file:   anvil/Assets/Standard Assets/Skyboxes/Textures/Eerie/Eerie_left.tif
+#	new file:   anvil/Assets/Standard Assets/Skyboxes/Textures/Eerie/Eerie_right.tif
+#	new file:   anvil/Assets/Standard Assets/Skyboxes/Textures/Eerie/Eerie_up.tif
+#	new file:   anvil/Assets/Standard Assets/Skyboxes/Textures/MoonShine/MoonShine_back.tif
+#	new file:   anvil/Assets/Standard Assets/Skyboxes/Textures/MoonShine/MoonShine_down.tif
+#	new file:   anvil/Assets/Standard Assets/Skyboxes/Textures/MoonShine/MoonShine_front.tif
+#	new file:   anvil/Assets/Standard Assets/Skyboxes/Textures/MoonShine/MoonShine_left.tif
+#	new file:   anvil/Assets/Standard Assets/Skyboxes/Textures/MoonShine/MoonShine_right.tif
+#	new file:   anvil/Assets/Standard Assets/Skyboxes/Textures/MoonShine/MoonShine_up.tif
+#	new file:   anvil/Assets/Standard Assets/Skyboxes/Textures/Overcast1/Overcast1_back.tif
+#	new file:   anvil/Assets/Standard Assets/Skyboxes/Textures/Overcast1/Overcast1_down.tif
+#	new file:   anvil/Assets/Standard Assets/Skyboxes/Textures/Overcast1/Overcast1_front.tif
+#	new file:   anvil/Assets/Standard Assets/Skyboxes/Textures/Overcast1/Overcast1_left.tif
+#	new file:   anvil/Assets/Standard Assets/Skyboxes/Textures/Overcast1/Overcast1_right.tif
+#	new file:   anvil/Assets/Standard Assets/Skyboxes/Textures/Overcast1/Overcast1_up.tif
+#	new file:   anvil/Assets/Standard Assets/Skyboxes/Textures/Overcast2/Overcast2_back.tif
+#	new file:   anvil/Assets/Standard Assets/Skyboxes/Textures/Overcast2/Overcast2_down.tif
+#	new file:   anvil/Assets/Standard Assets/Skyboxes/Textures/Overcast2/Overcast2_front.tif
+#	new file:   anvil/Assets/Standard Assets/Skyboxes/Textures/Overcast2/Overcast2_left.tif
+#	new file:   anvil/Assets/Standard Assets/Skyboxes/Textures/Overcast2/Overcast2_right.tif
+#	new file:   anvil/Assets/Standard Assets/Skyboxes/Textures/Overcast2/Overcast2_up.tif
+#	new file:   anvil/Assets/Standard Assets/Skyboxes/Textures/StarryNight/StarryNight_back.tif
+#	new file:   anvil/Assets/Standard Assets/Skyboxes/Textures/StarryNight/StarryNight_down.tif
+#	new file:   anvil/Assets/Standard Assets/Skyboxes/Textures/StarryNight/StarryNight_front.tif
+#	new file:   anvil/Assets/Standard Assets/Skyboxes/Textures/StarryNight/StarryNight_left.tif
+#	new file:   anvil/Assets/Standard Assets/Skyboxes/Textures/StarryNight/StarryNight_right.tif
+#	new file:   anvil/Assets/Standard Assets/Skyboxes/Textures/StarryNight/StarryNight_up.tif
+#	new file:   anvil/Assets/Standard Assets/Skyboxes/Textures/Sunny1/Sunny1_back.tif
+#	new file:   anvil/Assets/Standard Assets/Skyboxes/Textures/Sunny1/Sunny1_down.tif
+#	new file:   anvil/Assets/Standard Assets/Skyboxes/Textures/Sunny1/Sunny1_front.tif
+#	new file:   anvil/Assets/Standard Assets/Skyboxes/Textures/Sunny1/Sunny1_left.tif
+#	new file:   anvil/Assets/Standard Assets/Skyboxes/Textures/Sunny1/Sunny1_right.tif
+#	new file:   anvil/Assets/Standard Assets/Skyboxes/Textures/Sunny1/Sunny1_up.tif
+#	new file:   anvil/Assets/Standard Assets/Skyboxes/Textures/Sunny2/Sunny2_back.tif
+#	new file:   anvil/Assets/Standard Assets/Skyboxes/Textures/Sunny2/Sunny2_down.tif
+#	new file:   anvil/Assets/Standard Assets/Skyboxes/Textures/Sunny2/Sunny2_front.tif
+#	new file:   anvil/Assets/Standard Assets/Skyboxes/Textures/Sunny2/Sunny2_left.tif
+#	new file:   anvil/Assets/Standard Assets/Skyboxes/Textures/Sunny2/Sunny2_right.tif
+#	new file:   anvil/Assets/Standard Assets/Skyboxes/Textures/Sunny2/Sunny2_up.tif
+#	new file:   anvil/Assets/Standard Assets/Skyboxes/Textures/Sunny3/Sunny3_back.tif
+#	new file:   anvil/Assets/Standard Assets/Skyboxes/Textures/Sunny3/Sunny3_down.tif
+#	new file:   anvil/Assets/Standard Assets/Skyboxes/Textures/Sunny3/Sunny3_front.tif
+#	new file:   anvil/Assets/Standard Assets/Skyboxes/Textures/Sunny3/Sunny3_left.tif
+#	new file:   anvil/Assets/Standard Assets/Skyboxes/Textures/Sunny3/Sunny3_right.tif
+#	new file:   anvil/Assets/Standard Assets/Skyboxes/Textures/Sunny3/Sunny3_up.tif
+#	new file:   anvil/Assets/Standard Assets/Skyboxes/_skybox info.txt
+#	new file:   anvil/Assets/Standard Assets/Water (Pro Only)/Daylight Water.prefab
+#	new file:   anvil/Assets/Standard Assets/Water (Pro Only)/Nighttime Water.prefab
+#	new file:   anvil/Assets/Standard Assets/Water (Pro Only)/Sources/Materials/Daylight Water.mat
+#	new file:   anvil/Assets/Standard Assets/Water (Pro Only)/Sources/Materials/Nighttime Water.mat
+#	new file:   anvil/Assets/Standard Assets/Water (Pro Only)/Sources/Objects/Materials/water plane-lambert1.mat
+#	new file:   anvil/Assets/Standard Assets/Water (Pro Only)/Sources/Objects/Water Plane.fbx
+#	new file:   anvil/Assets/Standard Assets/Water (Pro Only)/Sources/Scripts/Water.cs
+#	new file:   anvil/Assets/Standard Assets/Water (Pro Only)/Sources/Shaders/FX-Water.shader
+#	new file:   anvil/Assets/Standard Assets/Water (Pro Only)/Sources/Textures/Water Fresnel.psd
+#	new file:   anvil/Assets/Standard Assets/Water (Pro Only)/Sources/Textures/Water fallback.jpg
+#	new file:   anvil/Assets/Standard Assets/Water (Pro Only)/Sources/Textures/Waterbump.jpg
+#	new file:   anvil/Assets/Standard Assets/Water (Pro Only)/Sources/Textures/nightgradient cubemap.psd
+#	new file:   anvil/Assets/Standard Assets/Water (Pro Only)/Sources/Textures/nightgradient.psd
+#	new file:   anvil/Assets/Standard Assets/Water (Pro Only)/Sources/Textures/oceangradient.psd
+#	new file:   anvil/Assets/Standard Assets/Water (Pro Only)/Sources/Textures/oceangradientcube.psd
+#	new file:   anvil/Assets/Standard Assets/Water (Pro Only)/Water4/Sources/Materials/Water4Example.mat
+#	new file:   anvil/Assets/Standard Assets/Water (Pro Only)/Water4/Sources/Materials/Water4ExampleSimple.mat
+#	new file:   anvil/Assets/Standard Assets/Water (Pro Only)/Water4/Sources/Objects/Materials/ocean_plane-No Name.mat
+#	new file:   anvil/Assets/Standard Assets/Water (Pro Only)/Water4/Sources/Objects/ocean_plane.FBX
+#	new file:   anvil/Assets/Standard Assets/Water (Pro Only)/Water4/Sources/Objects/ocean_plane.mat
+#	new file:   anvil/Assets/Standard Assets/Water (Pro Only)/Water4/Sources/Scripts/Displace.cs
+#	new file:   anvil/Assets/Standard Assets/Water (Pro Only)/Water4/Sources/Scripts/GerstnerDisplace.cs
+#	new file:   anvil/Assets/Standard Assets/Water (Pro Only)/Water4/Sources/Scripts/MeshContainer.cs
+#	new file:   anvil/Assets/Standard Assets/Water (Pro Only)/Water4/Sources/Scripts/PlanarReflection.cs
+#	new file:   anvil/Assets/Standard Assets/Water (Pro Only)/Water4/Sources/Scripts/SpecularLighting.cs
+#	new file:   anvil/Assets/Standard Assets/Water (Pro Only)/Water4/Sources/Scripts/WaterBase.cs
+#	new file:   anvil/Assets/Standard Assets/Water (Pro Only)/Water4/Sources/Scripts/WaterTile.cs
+#	new file:   anvil/Assets/Standard Assets/Water (Pro Only)/Water4/Sources/Shaders/FX-SimpleWater4.shader
+#	new file:   anvil/Assets/Standard Assets/Water (Pro Only)/Water4/Sources/Shaders/FX-Water4.shader
+#	new file:   anvil/Assets/Standard Assets/Water (Pro Only)/Water4/Sources/Shaders/WaterInclude.cginc
+#	new file:   anvil/Assets/Standard Assets/Water (Pro Only)/Water4/Sources/Textures/SimpleFoam.png
+#	new file:   anvil/Assets/Standard Assets/Water (Pro Only)/Water4/Sources/Textures/smallWavesMap.png
+#	new file:   anvil/Assets/Standard Assets/Water (Pro Only)/Water4/Water4Example (Advanced).prefab
+#	new file:   anvil/Assets/Standard Assets/Water (Pro Only)/Water4/Water4Example (Simple).prefab
+#	new file:   anvil/Assets/Textures/islandAO.png
+#	new file:   anvil/Assets/Textures/islandColor.png
+#	new file:   anvil/Assets/Textures/logo_96.png
+#	new file:   anvil/Assets/Textures/metalAO.png
+#	new file:   anvil/Assets/Textures/metalColor.png
+#	new file:   anvil/Assets/Textures/splash.png
+#	new file:   anvil/Assets/Textures/wood1AO.png
+#	new file:   anvil/Assets/Textures/wood2AO.png
+#	new file:   anvil/Assets/Textures/wood3AO.png
+#	new file:   anvil/Assets/Textures/wood4AO.png
+#	new file:   anvil/Assets/game.unity
+#	new file:   anvil/Library/AnnotationManager
+#	new file:   anvil/Library/AssetImportState
+#	new file:   anvil/Library/AssetServerCacheV3
+#	new file:   anvil/Library/AssetVersioning.db
+#	new file:   anvil/Library/BuildPlayer.prefs
+#	new file:   anvil/Library/BuildSettings.asset
+#	new file:   anvil/Library/EditorUserBuildSettings.asset
+#	new file:   anvil/Library/EditorUserSettings.asset
+#	new file:   anvil/Library/FailedAssetImports.txt
+#	new file:   anvil/Library/InspectorExpandedItems.asset
+#	new file:   anvil/Library/MonoManager.asset
+#	new file:   anvil/Library/ProjectSettings.asset
+#	new file:   anvil/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
+#	new file:   anvil/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll.mdb
+#	new file:   anvil/Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll
+#	new file:   anvil/Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll.mdb
+#	new file:   anvil/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll
+#	new file:   anvil/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll.mdb
+#	new file:   anvil/Library/ScriptAssemblies/CompilationCompleted.txt
+#	new file:   anvil/Library/ScriptMapper
+#	new file:   anvil/Library/assetDatabase3
+#	new file:   anvil/Library/expandedItems
+#	new file:   anvil/Library/guidmapper
+#	new file:   anvil/Library/metadata/00/00000000000000001000000000000000
+#	new file:   anvil/Library/metadata/00/00000000000000002000000000000000
+#	new file:   anvil/Library/metadata/00/00000000000000003000000000000000
+#	new file:   anvil/Library/metadata/00/00000000000000004000000000000000
+#	new file:   anvil/Library/metadata/00/00000000000000004100000000000000
+#	new file:   anvil/Library/metadata/00/00000000000000005000000000000000
+#	new file:   anvil/Library/metadata/00/00000000000000006000000000000000
+#	new file:   anvil/Library/metadata/00/00000000000000007000000000000000
+#	new file:   anvil/Library/metadata/00/00000000000000008000000000000000
+#	new file:   anvil/Library/metadata/00/00000000000000009000000000000000
+#	new file:   anvil/Library/metadata/00/0000000000000000a000000000000000
+#	new file:   anvil/Library/metadata/00/0000000000000000b000000000000000
+#	new file:   anvil/Library/metadata/00/0000000000000000c000000000000000
+#	new file:   anvil/Library/metadata/00/00d7e64775d1332438c4996b372b953f
+#	new file:   anvil/Library/metadata/05/0568ecdd797316641b0203860b3929d9
+#	new file:   anvil/Library/metadata/05/05f6c978afe090d4d8f0af42a61bbe7f
+#	new file:   anvil/Library/metadata/09/0904e339eb6fdd546b8539bd04db10ed
+#	new file:   anvil/Library/metadata/0a/0ab79d7f243824f5d9826bd83522c8df
+#	new file:   anvil/Library/metadata/0b/0b167d00b3108411a8a963cba5ddde1b
+#	new file:   anvil/Library/metadata/0c/0ca3b37f5004b0e4899195d27bbc1a84
+#	new file:   anvil/Library/metadata/0f/0fac69f41ec8eab44bef694f53d53d84
+#	new file:   anvil/Library/metadata/15/15577174a872740edb59495b6549a0c3
+#	new file:   anvil/Library/metadata/15/15c6acc4f11254a04b03849245d80574
+#	new file:   anvil/Library/metadata/16/16522f49031ff414abdf1f83f1b6a36c
+#	new file:   anvil/Library/metadata/16/16dd8248d31591f4fbea40ca5d506411
+#	new file:   anvil/Library/metadata/17/17680dc3bf8f74b498b01cf1481e2593
+#	new file:   anvil/Library/metadata/17/17e234879cb994b7f93d7437c10d23d6
+#	new file:   anvil/Library/metadata/18/1824c033011ae084f9b36e538c79678c
+#	new file:   anvil/Library/metadata/19/195c271a9118d224c8562ae67cf47a66
+#	new file:   anvil/Library/metadata/1b/1bf34b610fe6f466faff3dcd833c06f6
+#	new file:   anvil/Library/metadata/1c/1cac2e0bcc34e4b3cbb4bd85982eba83
+#	new file:   anvil/Library/metadata/1d/1d5ac211a643e447ca78c2d794a16381
+#	new file:   anvil/Library/metadata/1d/1da31b5f0cf126543b66c7d9d24a574c
+#	new file:   anvil/Library/metadata/1d/1dfa22e5547fb4a4585ba225887d89dd
+#	new file:   anvil/Library/metadata/1e/1e68e75546e8d4feab8846bfaf8878d3
+#	new file:   anvil/Library/metadata/23/2314ce3a3eecf4816bad3c9eca4de2e1
+#	new file:   anvil/Library/metadata/23/2372dd1814cb4ed47a91f8174877623e
+#	new file:   anvil/Library/metadata/26/263728cbbc210a94c8dd27552d88dd6a
+#	new file:   anvil/Library/metadata/28/28d3a97d025eaa449adf895c0bdd642a
+#	new file:   anvil/Library/metadata/2a/2a91e8dd37cdd41efb4859b65aced7a2
+#	new file:   anvil/Library/metadata/2a/2ac0fac056fc3aa4487538c80969d003
+#	new file:   anvil/Library/metadata/2b/2ba5e7728128488488b1af0b0798345e
+#	new file:   anvil/Library/metadata/2c/2c538784885b34a5987ed9f6651d9ecd
+#	new file:   anvil/Library/metadata/2c/2c93b54a9ce1c314b809b4c11cf9cdb6
+#	new file:   anvil/Library/metadata/2d/2dd3788f8589b40bf82a92d76ffc5091
+#	new file:   anvil/Library/metadata/30/3033e46ab6c9e44a9b9dd0e9f5130357
+#	new file:   anvil/Library/metadata/32/32569ca6b14e24176be40165ccaa300c
+#	new file:   anvil/Library/metadata/32/32ef381921b3f7f479831b042c113762
+#	new file:   anvil/Library/metadata/33/33f51eb21122c4ca6a199d561065ae30
+#	new file:   anvil/Library/metadata/34/34e1452e07a0b40c295c5b10aa679465
+#	new file:   anvil/Library/metadata/35/352e5f82d7105ad408904c5f552b5fe7
+#	new file:   anvil/Library/metadata/35/356d385a59c53487ebe6e3363ff4ffa2
+#	new file:   anvil/Library/metadata/35/358a87f082de94ddd810e929c00c8594
+#	new file:   anvil/Library/metadata/36/36dd0b22da8874ed38075789055ca664
+#	new file:   anvil/Library/metadata/39/395c3df516e44d84d9eca66fcd91a435
+#	new file:   anvil/Library/metadata/39/39a8706a9bd02c64783c071fb7438ecf
+#	new file:   anvil/Library/metadata/3b/3bbbb1d2bfc4f43f79f3226bca2d1f64
+#	new file:   anvil/Library/metadata/3c/3c35247d34a2afb458f2c85feb9e218b
+#	new file:   anvil/Library/metadata/3c/3cc8ac37e0da341db819af6143a07b03
+#	new file:   anvil/Library/metadata/41/4185bc77c7194462ca3b1097ef4a5de0
+#	new file:   anvil/Library/metadata/42/427ff48b098658742bdcce953d607e78
+#	new file:   anvil/Library/metadata/42/42e7f46d0e5a84171a3909479c1646ba
+#	new file:   anvil/Library/metadata/44/447088e04c3e13f488c4dfa048ee601b
+#	new file:   anvil/Library/metadata/44/449b48f7eb5d87a4baaa5fb73f875a59
+#	new file:   anvil/Library/metadata/45/454585cca07f953479b902a00ead3015
+#	new file:   anvil/Library/metadata/47/475c4a4e617a8401b84ca7b32c7cc460
+#	new file:   anvil/Library/metadata/4e/4e1467e748fa74c64b96759b3d9713ae
+#	new file:   anvil/Library/metadata/51/517a230447c0af548a7679cdf69c3e56
+#	new file:   anvil/Library/metadata/53/531c14f8d5cdc4e5baa83ee6e16f783a
+#	new file:   anvil/Library/metadata/53/53412155bc1016547b1a77b2333c0380
+#	new file:   anvil/Library/metadata/54/54216e9ed42974e30967824b7f0b2806
+#	new file:   anvil/Library/metadata/55/556d0049df5b8a54d9228acf679ff82c
+#	new file:   anvil/Library/metadata/57/575f6c95d3311d64cb2b31f1a1f93cfc
+#	new file:   anvil/Library/metadata/58/5861c55756febc148902667397405ff9
+#	new file:   anvil/Library/metadata/5a/5aab239cac7fe8a4c931693a7535da5c
+#	new file:   anvil/Library/metadata/5b/5b5c5575fd4c74abd9f7b30862fb76a3
+#	new file:   anvil/Library/metadata/5b/5ba172cd3918d7c44aa6d04446119a00
+#	new file:   anvil/Library/metadata/5d/5dbdf7dfcf86afa418926ee28fab2b1d
+#	new file:   anvil/Library/metadata/5f/5f75ef29233ec634facc1ba1e1f64725
+#	new file:   anvil/Library/metadata/60/607426a9820414bfd8081fb22854dbd4
+#	new file:   anvil/Library/metadata/60/60bca8f58a0b8478e946e6e86658cb29
+#	new file:   anvil/Library/metadata/61/6134a184b1d49498fb473b6276533784
+#	new file:   anvil/Library/metadata/61/614535181412919468b3317fdc12210d
+#	new file:   anvil/Library/metadata/62/6270212fea5570b468801dbd014c3980
+#	new file:   anvil/Library/metadata/63/63e618e4b55634c8fb3bf5c5cd6679ea
+#	new file:   anvil/Library/metadata/65/656fde119942645aa8e062e04c119aa1
+#	new file:   anvil/Library/metadata/66/661663e7fa00ae64fa29cf54677bbef4
+#	new file:   anvil/Library/metadata/66/66207ff69de6b4d73a445036c3a195f6
+#	new file:   anvil/Library/metadata/66/66ebe4da1ef67e64e8aeccb820e409d6
+#	new file:   anvil/Library/metadata/67/67de91b5513a4d8489588fb65de75caa
+#	new file:   anvil/Library/metadata/68/681e41ee1260343b395ca58745c94870
+#	new file:   anvil/Library/metadata/68/68287fe10cd30434b9c21ff1c55f613f
+#	new file:   anvil/Library/metadata/68/68ec2fe99d1108b9d0006a298d76c639
+#	new file:   anvil/Library/metadata/6a/6aa58ee2f84094af2846e1a7bb0c23f9
+#	new file:   anvil/Library/metadata/6b/6b435da4f5a70a646b4a881d2de37712
+#	new file:   anvil/Library/metadata/6d/6d4fd495600cd4cf0b8ad2caf025f94e
+#	new file:   anvil/Library/metadata/6d/6dda5f499bc82c442aab32e4a6bdbe40
+#	new file:   anvil/Library/metadata/6e/6eef515e7c40d3244ad62dcdf6e8096a
+#	new file:   anvil/Library/metadata/70/7097f369c5ba74821bd76c430889322a
+#	new file:   anvil/Library/metadata/75/752b01b0aec6184468996505d2ab8a9c
+#	new file:   anvil/Library/metadata/78/780611a67e8e941a2b3aa96e5915a793
+#	new file:   anvil/Library/metadata/7a/7a3134e5f9749c449ad2289cfe93f5d5
+#	new file:   anvil/Library/metadata/7e/7e0b0a994d8934541a387e092630b5db
+#	new file:   anvil/Library/metadata/80/80dc0f296ac9946ca8fe9c4259b1b229
+#	new file:   anvil/Library/metadata/82/8269a010592f549af8f11b1683d9e794
+#	new file:   anvil/Library/metadata/84/843740dbe549a4a6ba9556d1b80001f5
+#	new file:   anvil/Library/metadata/87/87e98f563747ec04e8cd93b3fc3b1a29
+#	new file:   anvil/Library/metadata/88/880183e3674eaf043b6d968f8ef25fb9
+#	new file:   anvil/Library/metadata/8a/8a98ef45bc7df804d95fd945abd2c943
+#	new file:   anvil/Library/metadata/8a/8aaff0751054e4a9cb4642d01eaf5be9
+#	new file:   anvil/Library/metadata/8a/8af0f21f411904d65a90f87110818a7e
+#	new file:   anvil/Library/metadata/8c/8c75dadc1f18e42f5be29942a71d83c4
+#	new file:   anvil/Library/metadata/8c/8ca0735e520b5fc40a4e41b42fc288ea
+#	new file:   anvil/Library/metadata/91/91c222ac5463b7243849bc078d53e72c
+#	new file:   anvil/Library/metadata/92/922093bc3fae1d3469dc9e163b747d8f
+#	new file:   anvil/Library/metadata/93/931987be26c9646429c56f8a4692bb81
+#	new file:   anvil/Library/metadata/93/9396c384ee2cf1b4ab19decd6293be20
+#	new file:   anvil/Library/metadata/93/93a10696ae70ee749ad99e2325fba963
+#	new file:   anvil/Library/metadata/93/93bc7d6f0e1793c47a5f88178ecc75fe
+#	new file:   anvil/Library/metadata/94/944f36f8b8a90fd4390925332f18dfe3
+#	new file:   anvil/Library/metadata/95/951d74f7d57bed84cb623c62436bd064
+#	new file:   anvil/Library/metadata/95/956c1c0113bcd4c4388a3c239be09820
+#	new file:   anvil/Library/metadata/97/9785a5533d9270849a276a4bfbfa9418
+#	new file:   anvil/Library/metadata/97/97b050d43ac7c4d2b9f6cbb587650761
+#	new file:   anvil/Library/metadata/9b/9ba05f538ee36044da5cd2a4f14a8b18
+#	new file:   anvil/Library/metadata/9c/9c232ac10e8e21e45bb7ac11f0f1ec9e
+#	new file:   anvil/Library/metadata/9c/9c2c627f6fe3945b39581fc103d32251
+#	new file:   anvil/Library/metadata/9c/9cda328e4b6954d70841a8a66f42ec08
+#	new file:   anvil/Library/metadata/9d/9d2a2ce9c718dc24dae3b1ee427b27ee
+#	new file:   anvil/Library/metadata/9d/9d4133d5d30b644bd87802a347eaccbe
+#	new file:   anvil/Library/metadata/9e/9ef26a39a400bec44a36b85fd38a2d65
+#	new file:   anvil/Library/metadata/9e/9ef50104b12ed4ca9bed40f105986cd7
+#	new file:   anvil/Library/metadata/a1/a1da353243062479a9b31c85074a796b
+#	new file:   anvil/Library/metadata/a2/a2126534b3a11b34e977105bd9e3cc03
+#	new file:   anvil/Library/metadata/a2/a260f6436160ad9478f076825ab4b7e1
+#	new file:   anvil/Library/metadata/a3/a3d3ef1a5bbfb4e0a910fbbe5830b1f9
+#	new file:   anvil/Library/metadata/a4/a42861ea3fd2ec344b7a541f0a7ded67
+#	new file:   anvil/Library/metadata/a6/a6c23ad66d37f0e4c8c86d7c5293ac7c
+#	new file:   anvil/Library/metadata/a6/a6de6086ecd5fe84699b0bc7e00608a4
+#	new file:   anvil/Library/metadata/a7/a771af3b1958445078af5fe2e9ec726c
+#	new file:   anvil/Library/metadata/a9/a91710141c80f02499c5eb0927bba69f
+#	new file:   anvil/Library/metadata/ae/ae162c0523ab4468bb03ef160eb672e2
+#	new file:   anvil/Library/metadata/ae/aecdab3033c620c43a3695cc7a5296bb
+#	new file:   anvil/Library/metadata/b3/b33528924df783f48b3e7e4a639baee8
+#	new file:   anvil/Library/metadata/b3/b365e6042890d4b1987423ed6bb8a08c
+#	new file:   anvil/Library/metadata/b5/b544816461f324e56a39767fdeb5b114
+#	new file:   anvil/Library/metadata/b5/b5b8c0f9acc2944f086c02cb83f4ae76
+#	new file:   anvil/Library/metadata/b7/b725b62cfc9d04e4886735ab2a8107d1
+#	new file:   anvil/Library/metadata/ba/ba6a41dc489914734857bb5924eb70ad
+#	new file:   anvil/Library/metadata/bb/bbba6214b1838a64ebc939ac9a08726d
+#	new file:   anvil/Library/metadata/bc/bcae914220acd4907840a029bb9d9aec
+#	new file:   anvil/Library/metadata/be/be7c377d128f1ff46a22853ecdb9e6d1
+#	new file:   anvil/Library/metadata/c2/c22094bc116524b2a95c9aae09278b22
+#	new file:   anvil/Library/metadata/c4/c419698c0038a6e40868e7a0da6198dd
+#	new file:   anvil/Library/metadata/c6/c62b7d87755b447919138e67f8e22e0c
+#	new file:   anvil/Library/metadata/c7/c76b3032d5d1c9e47a4f64134730c565
+#	new file:   anvil/Library/metadata/c8/c81df2918c80c054ca3d436e62090893
+#	new file:   anvil/Library/metadata/c8/c8f7a4664f7873d45b8a043f82c50355
+#	new file:   anvil/Library/metadata/ca/ca49380a71a2bb64c830d06bd421b9d1
+#	new file:   anvil/Library/metadata/ca/cad4fe3deabb0452e9a372244c25287c
+#	new file:   anvil/Library/metadata/cc/cc2e0695659497144afe5a45ed3227ea
+#	new file:   anvil/Library/metadata/d4/d4d16ca3d56fb7142a32d49bbd323836
+#	new file:   anvil/Library/metadata/da/da93ddd6928094e24bb1f3f665f143d3
+#	new file:   anvil/Library/metadata/da/da976b1a4f7ebb949b0f71341e4f1821
+#	new file:   anvil/Library/metadata/da/daf8ab28ea6df4773bf38cb9e3e173e1
+#	new file:   anvil/Library/metadata/db/db6ded423daf6e449ac50a3e1f99a36a
+#	new file:   anvil/Library/metadata/dc/dc97187fca1dcaf4e84e8b5f414a64ba
+#	new file:   anvil/Library/metadata/de/de2ab2b9ac93bb544b9552e49030371b
+#	new file:   anvil/Library/metadata/e0/e0e8367cc866c7d4cae7b97d6ba94e88
+#	new file:   anvil/Library/metadata/e2/e228581791012c144900f8d7ccda2491
+#	new file:   anvil/Library/metadata/e3/e340b02bd24d6b44cbaaecb9296ea7b5
+#	new file:   anvil/Library/metadata/e3/e349c3f4b36417b48b65112d7bd0b54e
+#	new file:   anvil/Library/metadata/e3/e3e214f8620f35a4cb4e415a4b8c19cf
+#	new file:   anvil/Library/metadata/e4/e4f05fa6bbe14ba4fa7e2285ec7b639f
+#	new file:   anvil/Library/metadata/e5/e53c8c3dcc4ff59438bc9e86cb45c3f6
+#	new file:   anvil/Library/metadata/e5/e58d7769af939f944aa34c67b70e282b
+#	new file:   anvil/Library/metadata/e6/e633a20421c47426aa04444234225b69
+#	new file:   anvil/Library/metadata/e6/e683224912e790a4aad9fbfda3454396
+#	new file:   anvil/Library/metadata/e6/e6f8288974c664a309d6c66de636978c
+#	new file:   anvil/Library/metadata/e7/e70b47c0cfc1d4b12a3c663d7582a523
+#	new file:   anvil/Library/metadata/e7/e7a88268a460f384cbef52d988810865
+#	new file:   anvil/Library/metadata/ea/eae94293b93a5474d8b82710736a6022
+#	new file:   anvil/Library/metadata/f5/f58e4a22531d2374a9ee08e2d107d710
+#	new file:   anvil/Library/metadata/f6/f67f2bac30f824d4f8270bb8bb0779df
+#	new file:   anvil/Library/metadata/f7/f781c091d1c8647c380d5230adfaee54
+#	new file:   anvil/Library/metadata/fa/fac6dae342eb2564096e85020a065cf6
+#	new file:   anvil/Library/metadata/fb/fb6566c21f717904f83743a5a76dd0b0
+#	new file:   anvil/Library/metadata/fe/fe2320675e2bcfb47aa856fd36d45d78
+#	new file:   anvil/Library/metadata/fe/fe48ca40e9be666419e7d1a4bf3d808a
+#	new file:   anvil/Library/metadata/fe/fe5d00245bc1d42a7927f4b2879026b8
+#	new file:   anvil/Library/metadata/ff/ff063c9db7e6e467d86d376ff5be5ca0
+#	new file:   anvil/Library/metadata/ff/ff3b0e14a61014f50be83e1a18c6d43e
+#	new file:   anvil/ProjectSettings/AudioManager.asset
+#	new file:   anvil/ProjectSettings/DynamicsManager.asset
+#	new file:   anvil/ProjectSettings/EditorBuildSettings.asset
+#	new file:   anvil/ProjectSettings/EditorSettings.asset
+#	new file:   anvil/ProjectSettings/InputManager.asset
+#	new file:   anvil/ProjectSettings/NavMeshLayers.asset
+#	new file:   anvil/ProjectSettings/NetworkManager.asset
+#	new file:   anvil/ProjectSettings/ProjectSettings.asset
+#	new file:   anvil/ProjectSettings/QualitySettings.asset
+#	new file:   anvil/ProjectSettings/TagManager.asset
+#	new file:   anvil/ProjectSettings/TimeManager.asset
+#	new file:   anvil/anvil_Data/Managed/Assembly-CSharp-firstpass.dll
+#	new file:   anvil/anvil_Data/Managed/Assembly-UnityScript-firstpass.dll
+#	new file:   anvil/anvil_Data/Managed/Boo.Lang.dll
+#	new file:   anvil/anvil_Data/Managed/Mono.Security.dll
+#	new file:   anvil/anvil_Data/Managed/System.Core.dll
+#	new file:   anvil/anvil_Data/Managed/System.dll
+#	new file:   anvil/anvil_Data/Managed/UnityEngine.dll
+#	new file:   anvil/anvil_Data/Managed/mscorlib.dll
+#	new file:   anvil/anvil_Data/Mono/etc/mono/1.0/DefaultWsdlHelpGenerator.aspx
+#	new file:   anvil/anvil_Data/Mono/etc/mono/1.0/machine.config
+#	new file:   anvil/anvil_Data/Mono/etc/mono/2.0/Browsers/Compat.browser
+#	new file:   anvil/anvil_Data/Mono/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx
+#	new file:   anvil/anvil_Data/Mono/etc/mono/2.0/machine.config
+#	new file:   anvil/anvil_Data/Mono/etc/mono/2.0/settings.map
+#	new file:   anvil/anvil_Data/Mono/etc/mono/2.0/web.config
+#	new file:   anvil/anvil_Data/Mono/etc/mono/browscap.ini
+#	new file:   anvil/anvil_Data/Mono/etc/mono/config
+#	new file:   anvil/anvil_Data/Mono/etc/mono/mconfig/config.xml
+#	new file:   anvil/anvil_Data/Mono/mono.dll
+#	new file:   anvil/anvil_Data/PlayerConnectionConfigFile
+#	new file:   anvil/anvil_Data/Resources/unity default resources
+#	new file:   anvil/anvil_Data/mainData
+#	new file:   anvil/anvil_Data/output_log.txt
+#	new file:   anvil/anvil_Data/sharedassets0.assets
+#	new file:   anvil/game-csharp.sln
+#	new file:   anvil/game.sln
+#	new file:   anvil/game.userprefs
+#
+
