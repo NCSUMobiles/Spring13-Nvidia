@@ -1,0 +1,31 @@
+Initialize engine version: 4.1.2f1 (911c7369eeac)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0 TODO.dll]
+    Renderer: NVIDIA GeForce GTX 580
+    Vendor:   NVIDIA
+    VRAM:     1488 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Adam\Documents\Projects\svn\ncsu\courses\csc591-mobiles\project\unity\game\island_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Adam\Documents\Projects\svn\ncsu\courses\csc591-mobiles\project\unity\game\island_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Adam\Documents\Projects\svn\ncsu\courses\csc591-mobiles\project\unity\game\island_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Users\Adam\Documents\Projects\svn\ncsu\courses\csc591-mobiles\project\unity\game\island_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\Adam\Documents\Projects\svn\ncsu\courses\csc591-mobiles\project\unity\game\island_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Adam\Documents\Projects\svn\ncsu\courses\csc591-mobiles\project\unity\game\island_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Adam\Documents\Projects\svn\ncsu\courses\csc591-mobiles\project\unity\game\island_Data\Managed\Assembly-UnityScript-firstpass.dll (this message is harmless)
+Loading C:\Users\Adam\Documents\Projects\svn\ncsu\courses\csc591-mobiles\project\unity\game\island_Data\Managed\Assembly-UnityScript-firstpass.dll into Unity Child Domain
+- Completed reload, in  0.053 seconds
+desktop: 2048x1152 60Hz; virtual: 4096x1152 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 509.
+Total: 1.237669 ms (FindLiveObjects: 0.025906 ms CreateObjectMapping: 0.017149 ms MarkObjects: 0.167114 ms  DeleteObjects: 0.284605 ms)
+
+Platform assembly: C:\Users\Adam\Documents\Projects\svn\ncsu\courses\csc591-mobiles\project\unity\game\island_Data\Managed\Boo.Lang.dll (this message is harmless)
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 93 unused Assets to reduce memory usage. Loaded Objects now: 170.
+Total: 2.341064 ms (FindLiveObjects: 0.009851 ms CreateObjectMapping: 0.013865 ms MarkObjects: 0.153614 ms  DeleteObjects: 1.446380 ms)
+
