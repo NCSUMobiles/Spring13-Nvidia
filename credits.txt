@@ -1,0 +1,19 @@
+
+The following deserve credit for content used in the project. This content has been provided as either royalty free, open source, or fair use and is property of its respective owners.  
+
+3rd Party Acknowledgement & Credits:
+
+Unity Technologies
+The Unity Editor, tools, and support
+
+Vinny Argentina
+Boat town, dock, and water tower models
+
+jconelea, TurboSquid
+Gravestone models and textures
+
+Jessica Curry, Dear Esther
+Background audio and soundtrack
+
+Elizabitcrusher, SoundCloud
+Dear esther ambient background audio
